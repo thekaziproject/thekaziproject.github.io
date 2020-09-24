@@ -2,6 +2,8 @@ const home = document.getElementById('home');
 const register = document.getElementById('register');
 const companyView = document.getElementById('company');
 const main = document.getElementById('main-content');
+const images = document.getElementsByTagName('img');
+const loading = document.createAttribute("loading"); 
 window.onload = registerStud()
 companyView.addEventListener('click', companyV);
 register.addEventListener('click', registerStud);
@@ -23,3 +25,8 @@ function registerStud(){
     height="600px" style="background: transparent;min-height:100vh;"></iframe>
     `;
 };
+
+for(var i=0; i < images.length; i++){
+    images[i].setAttributeNode(loading);
+    images[i].loading= `lazy`;
+}
