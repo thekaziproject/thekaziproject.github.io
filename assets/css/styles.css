@@ -30,13 +30,15 @@ body{
     width: 20vw;
     padding-top: 1.5vh;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-top-style: groove;
-    border-top-color: red;
-    border-bottom-color: red;
+    border-top-color: rgb(51, 255, 0);
+    border-bottom-color: rgb(51, 255, 0);
     border-bottom-width: 1px;
     border-top-width: 1px;
     border-bottom-style: groove;
+    font-weight: bold;
 }
 .nav-bar .nav-items .links:hover{
     border-bottom-style: ridge;
