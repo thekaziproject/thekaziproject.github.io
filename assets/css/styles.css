@@ -1,12 +1,18 @@
 body{
-    background-color: aliceblue;
+   
     margin: 0;
-    color: #000000;
+    padding: 0;
+    color: white;
 }
 .nav-bar{
-    background-color: rgb(0, 227, 243);
+   
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    
+    
     height: 10vh;
     width: 100%;
+    overflow: hidden;
 }
 .nav-bar .nav-items .links,
 .nav-bar,
@@ -17,12 +23,15 @@ body{
     justify-content: center;
 }
 .nav-bar .nav-items{
+    line-height: 50px;
+    text-align: center;
     display: flex;
     place-items: center;
     margin: auto;
     height: 4vh;
-    width: 80%;
     justify-content: space-around;
+    color: #fff;
+    font-size: 13;
 }
 
 .nav-bar .nav-items .links{
@@ -30,22 +39,35 @@ body{
     width: 20vw;
     padding-top: 1.5vh;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 26px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-top-style: groove;
-    border-top-color: rgb(51, 255, 0);
-    border-bottom-color: rgb(51, 255, 0);
+    border-top-color: #AC3B61;
+    border-bottom-color: #AC3B61;
     border-bottom-width: 1px;
     border-top-width: 1px;
     border-bottom-style: groove;
     font-weight: bold;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 10px #eee;
+    border-radius: 10px;
+  
 }
 .nav-bar .nav-items .links:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    background: #AC3B61;
+    text-transform: uppercase;
     border-bottom-style: ridge;
     border-bottom-color: chartreuse;
     border-bottom-width: 2px;
-    border-top: none;
+    border-top: yellow;
+    background-position: -100%;
+    
 }
+
 
 iframe{
     width: 100%;
