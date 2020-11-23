@@ -8,14 +8,21 @@ window.onload = registerStud()
 companyView.addEventListener('click', companyV);
 register.addEventListener('click', registerStud);
 //Company View
-function companyV(){
+/*function companyV(){
     main.innerHTML = `
     <iframe class="airtable-embed" 
     src="https://airtable.com/embed/shr6UuVuzN2ipB6N7?backgroundColor=green&layout=card&viewControls=on" 
     frameborder="0" onmousewheel="" 
-    width="80%" height="2500px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    width="100%" height="2500px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    `;
+}; */
+
+function companyV(){
+    main.innerHTML = `
+    <iframe class="airtable-embed" src="https://airtable.com/embed/shr6UuVuzN2ipB6N7?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="1000px" style="background: transparent; border: 1px solid #ccc;"></iframe>
     `;
 };
+
 
 function registerStud(){
     main.innerHTML=`
