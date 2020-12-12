@@ -42,16 +42,13 @@ body{
     font-size: 26px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-top-style: groove;
-    border-top-color: #AC3B61;
-    border-bottom-color: #AC3B61;
     border-bottom-width: 1px;
     border-top-width: 1px;
     border-bottom-style: groove;
     font-weight: bold;
     transition: 0.5s;
     background-size: 200% auto;
-    box-shadow: 0 0 10px #eee;
-    border-radius: 10px;
+   
   
 }
 .nav-bar .nav-items .links:hover{
